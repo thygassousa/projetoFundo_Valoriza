@@ -1,0 +1,489 @@
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    margin-left: auto;
+  }
+}
+
+.course-details {
+  text-align: center;
+}
+
+.course-details h2 {
+  color: #343a40;
+  margin-bottom: 30px;
+}
+
+.course-details p {
+  color: #6c757d;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+#course-info {
+  margin-bottom: 30px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+}
+
+.card-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#enroll-btn {
+  display: block;
+  margin: 0 auto;
+}
+
+#enroll-btn:hover {
+  background-color: #007bff;
+}
+
+.navbar-custom {
+  background-color: #23282B !important;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.navbar-brand img {
+  width: 30px;
+  height: 30px;
+}
+
+.navbar-nav .nav-link {
+  color: white;
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #007bff;
+}
+
+.navbar-toggler {
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-width='2' linecap='round' linejoin='round' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.footer {
+  background-color: #23282B;
+  color: white;
+  padding: 20px 0;
+  padding-top: 60px;
+}
+
+.footer-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo img {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+
+
+.social-icons {
+  margin-top: 20px;
+}
+
+.social-icons a {
+  color: white;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.footer-links h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-links ul {
+  padding: 0;
+  list-style: none;
+}
+
+.footer-links ul li {
+  margin-bottom: 10px;
+}
+
+.footer-links ul li a {
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+
+.footer-links ul li a:hover {
+  text-decoration: underline;
+}
+
+.feedback-box {
+  background-color: #263238;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.feedback-box h5 {
+  color: white;
+}
+
+.feedback-box textarea {
+  background-color: white;
+  color: black;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.btn-login {
+  background-color: #F5DEB3;
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: none;
+  margin-left: 10px;
+}
+
+.btn-cadastro {
+  background-color: #F72F3A;
+  height: 40px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  border: none;
+  margin-left: 10px;
+}
+
+.login {
+  color: #F72F3A;
+  font-size: 18px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+
+.cadastro {
+  color: #F5DEB3;
+  font-size: 18px;
+  font-family: Inter, sans-serif;
+  font-weight: 600;
+  line-height: 20px;
+  text-align: center;
+}
+
+.btn-login:hover,
+.btn-cadastro:hover {
+  opacity: 0.8;
+}
+
+.navbar {
+  height: 120px;
+  background-color: #23282B !important;
+}
+
+.text-red {
+  color: #F72F3A;
+}
+
+
+/* Destaque */
+.destaque {
+  background-color: #F5DEB3;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  position: relative;
+  height: 559px;
+}
+
+.destaque h2 {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.destaque .btn-registrar {
+  font-size: 20px;
+  padding: 10px 40px;
+}
+
+/* Section: Explore */
+.titulo-explore {
+  font-size: 36px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+
+.explore {
+  background-color: #F72F3A;
+  color: white;
+  text-align: center;
+  padding: 50px 0;
+}
+
+.category-card-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.category-card-link:hover .category-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.category-card {
+  background-color: #23282B;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease;
+}
+
+.category-card .card-titulo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+
+.explore .category-card h3 {
+  color: white;
+}
+
+.category-card p {
+  color: #ffffff;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.category-card .icone-svg {
+  margin-bottom: 20px;
+}
+
+/* Section: Parcerias */
+.parcerias {
+  background-color: #2C2E31;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 60px 0;
+}
+
+.parcerias h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.parcerias .btn-explorar {
+  background-color: #F72F3A;
+  color: white;
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: left;
+  display: block;
+}
+
+.parcerias .btn-explorar:hover {
+  opacity: 0.8;
+}
+
+.parcerias .titulo-parcerias {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.parcerias .subtitulo-parcerias {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.parcerias .parcerias-img {
+  margin-bottom: 20px;
+}
+
+/* Section: Benefícios */
+.beneficios {
+  background-color: #F5F5F5;
+  text-align: center;
+  padding: 60px 0;
+}
+
+.beneficios .card-img-top {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.beneficios h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+.beneficios .benefit-card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.beneficios .benefit-card h3 {
+  color: #23282B;
+}
+
+.beneficios .benefit-card p {
+  color: #23282B;
+}
+
+.main-section {
+  background-color: #F5DEB3;
+  padding: 50px 0;
+}
+
+.main-section h1 {
+  font-size: 55px;
+  color: #333;
+  text-align: left;
+  font-weight: 600;
+}
+
+.main-section .highlight {
+  color: #F72F3A;
+}
+
+.main-section .btn-primary {
+  background-color: #ff4040;
+  border: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 10px;
+  margin-left: 0;
+}
+
+.icone-svg {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+/* Botão de Registrar */
+.btn-primary {
+  background-color: #F72F3A;
+  color: white;
+  padding: 12px 40px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: left;
+  display: block;
+  margin-top: 20px;
+  margin-left: 0 !important;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.card-body:hover .overlay {
+  opacity: 1;
+}
+
+.card-title {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.titulo-beneficios {
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.profile {
+  color: white;
+  font-size: 24px;
+}
+
+.btn-logout {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.logout {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.btn-logout:hover {
+  text-decoration: underline;
+}
+
+.navbar-brand img {
+  height: 200px;
+  width: auto;
+}
+
+.btn-login,
+.btn-cadastro {
+  display: flex;
+  align-items: center;
+}
+
+.login,
+.cadastro {
+  margin: 0; /* Remover margens que podem afetar o alinhamento */
+}
